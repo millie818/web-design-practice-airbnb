@@ -26,15 +26,27 @@
   height: 35px;
   font-size: 13px;
   line-height: 35px;
-  margin-right: 10px;
+  margin-right: 40px;
   margin-left: 10px;
   }
 
-  .header_right img {
+  .btn_trigger {
     width: 20px;
     height: 20px;
+    right: 20px;
   }
 
+  .btn_trigger span:nth-of-type(2) {
+    top: 8px;
+  }
+
+  .menu_nav {
+    top: 0;
+    width: 100%;
+    padding-top: 130px;
+    padding-right: 50px;
+    z-index: 2;
+  }
   /* main */
   /* main .menu */
   .menu {

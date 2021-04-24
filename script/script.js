@@ -11,6 +11,22 @@ $(document).ready(function() {
       easing: "swing", 
     });
 
+    // ハンバーガーメニュー
+  $('.btn_trigger').on('click', function(){
+    $(this).toggleClass('active');
+    if ($(this).hasClass('active')){
+      $('nav').css({
+          'visibility': 'visible',
+          'opacity': 1
+      });
+    } else {
+      $('nav').css({
+          'visibility': 'hidden',
+          'opacity': 0
+      });
+    } return false;
+  });
+
   // よくあるご質問スライドトグル
   $('.q_box').click( function(){
     $(this).next().slideToggle(300);
