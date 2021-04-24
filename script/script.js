@@ -1,7 +1,7 @@
 $(document).ready(function() {
   // Top背景画像のスライダー
   $('.top_slider').bgSwitcher({
-    images: ['../images/header-top-image.png','../images/bedroom-image.png','../images/room-image.png'],
+    images: ['images/header-top-image.png','images/bedroom-image.png','images/room-image.png'],
     Interval: 5000, 
       start: true, 
       loop: true, 

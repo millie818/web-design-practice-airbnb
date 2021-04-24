@@ -117,6 +117,7 @@ h1 img {
   height: 100vh;
   padding-top: 130px;
   padding-right: 50px;
+  visibility: hidden;
   z-index: 2;
 }
 
